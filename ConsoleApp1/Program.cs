@@ -10,19 +10,7 @@ class Calculator
             Console.WriteLine("1 - Addition");
             Console.WriteLine("2 - Subtraction");
             Console.WriteLine("3 - Multiplication");
-            Console.WriteLine("4 - Division");
-            Console.WriteLine("0 - Exit");
-            int choice = Convert.ToInt32(Console.ReadLine());
-            if (choice == 0) { Console.WriteLine("Program terminated.");
-                break;
-                
-            } 
-            Console.WriteLine("Enter the first number:");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            
-            Console.WriteLine("Enter the second number:");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-            double result = 0;
+            Console.W
             switch (choice) {
                 case 1: result = Add(num1, num2);
                 Console.WriteLine("Result: " + result);
